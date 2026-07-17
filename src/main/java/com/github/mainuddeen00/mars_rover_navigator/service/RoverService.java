@@ -9,9 +9,9 @@ public class RoverService {
 
     private final Rover rover;
 
-    public RoverService(Rover rover){
+    public RoverService(){
 
-        this.rover = rover;
+        this.rover = new Rover();
     }
 
     public Rover processCommands(String commands){
