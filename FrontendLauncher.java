@@ -63,8 +63,7 @@ public class FrontendLauncher {
         server.setExecutor(null);
         server.start();
 
-        System.out.println("\n✅ Frontend server ready!");
-        System.out.println("📁 Place your index.html in: " + new File(".").getAbsolutePath());
-        System.out.println("🌐 Open browser at: http://localhost:3000");
+        System.out.println("\nFrontend server ready!");
+        System.out.println("Open browser at: http://localhost:3000");
     }
 }
